@@ -1405,7 +1405,7 @@ public class PjSipService extends Service implements SensorEventListener {
         }
 
         if (mVibrator != null) {
-            mVibrator.cancel();
+            // mVibrator.cancel();
         }
 
         mAudioManager.setMode(AudioManager.MODE_NORMAL);
